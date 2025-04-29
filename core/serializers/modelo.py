@@ -6,4 +6,4 @@ from core.models import Modelo
 class ModeloSerializer(ModelSerializer):
     class Meta:
         model = Modelo
-        fields = "_all_"
+        fields = "__all__"

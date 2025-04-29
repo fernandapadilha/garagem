@@ -6,5 +6,5 @@ class Modelo(models.Model):
     marca = models.CharField(max_length=80, null=True, blank=True)
     categoria = models.CharField(max_length=80, null=True, blank=True)
 
-    def _str_(self):
+    def __str__(self):
         return f"id: {self.id}; marca: {self.marca}; nome: {self.nome}"
